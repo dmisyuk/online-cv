@@ -101,18 +101,13 @@ certifications:
   list:
   - name: Introduction to Web Accessability
     start: 2026
-    end: 2026
+    end:
     organization: W3Cx
     credentialid: 5f0a8da31cc14e509be922e434e45285
     credentialurl: https://www.edx.org/learn/web-accessibility
     credentialname: W3Cx
     details: |
-     
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
+      Developed a str
   - name: Git learning
     start: 2019
     end:
