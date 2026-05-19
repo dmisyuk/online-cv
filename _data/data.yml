@@ -229,15 +229,15 @@ skills:
   - name: SQL
     level: 80%
 
-skills:
-  title: Other skills
+# skills:
+#   title: Other skills
 
-  toolset:
-  - name: Stick and Mig welding
-    level: 80%
+#   toolset:
+#   - name: Stick and Mig welding
+#     level: 80%
 
-  - name: Mechanic
-    level:
+#   - name: Mechanic
+#     level:
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
