@@ -189,23 +189,23 @@ projects:
 #     authors: Edgar T. Irons
 #     conference: "Comm. ACM 4 (1961), 51–55"
 
-# recommendations:
-#   title: Recommendations
-#   list:
-#   - person: Yareli Perez
-#     email: perezyareli@example.com
-#     phone: 012 345 6789
-#     role: General Director at example.com
-#     recommendation: |
-#       Alan Doe is a super employee!
-#   - person: Lara Henderson
-#     email: larah@example.com
-#     phone: 012 345 6789
-#     role: General Director at example.com
-#     recommendation: |
-#       I would like to work with Alan Doe again!
+recommendations:
+  title: Recommendations
+  list:
+  - person: Igor Misyuk
+    email: perezyareli@example.com
+    phone: 360 281 4236
+    role: Owner of Sky Transport LLC
+    recommendation: |
+      David Misyuk is a super employee!
+  - person: Alex Livchin
+    email: larah@example.com
+    phone: 864 542 6699
+    role: Owner of Vals Auto
+    recommendation: |
+      I would like to work with David Misyuk again!
 
-#       He is a great employee!
+      He is a great employee!
 
 skills:
   - title: Skills &amp; Proficiency
