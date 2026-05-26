@@ -40,7 +40,7 @@ async function sendMessage() {
 
   try {
 
-    const response = await fetch("https://resume-chat-bot-2h6s.onrender.com", {
+    const response = await fetch("https://resume-chat-bot-2h6s.onrender.com/chat", {
 
       method: "POST",
 
