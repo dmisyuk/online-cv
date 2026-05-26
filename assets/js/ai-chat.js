@@ -28,9 +28,7 @@ async function sendMessage() {
 
   messages.innerHTML += `
     <div class="chat-message user">
-      <div class="message-content">
-        ${message}
-      </div>
+      <div class="message-content">${message}</div>
     </div>
   `;
 
@@ -62,9 +60,7 @@ async function sendMessage() {
 
     messages.innerHTML += `
       <div class="chat-message ai">
-        <div class="message-content">
-          ${data.reply}
-        </div>
+        <div class="message-content">${data.reply}</div>
       </div>
     `;
 
@@ -74,9 +70,7 @@ async function sendMessage() {
 
     messages.innerHTML += `
       <div class="chat-message ai">
-        <div class="message-content">
-          Error: ${error.message}
-        </div>
+        <div class="message-content">Error: ${error.message}</div>
       </div>
     `;
   }
