@@ -1,0 +1,86 @@
+ <script>
+const aiProfile = {
+
+  assistantInstructions: `
+You are a professional portfolio assistant.
+Answer questions about the portfolio owner.
+Be concise, professional, and factual.
+Do not invent information.
+`,
+
+  extraContext: `
+David enjoys automotive diagnostics and hands-on engineering work.
+He enjoys combining software with real-world systems.
+He is especially interested in AI, embedded systems, accessibility, and problem solving.
+
+David was born on July 18th, 2002 in Fairbanks, Alaska.
+(Calculate the age correctly using the current date if asked)
+His parents are immigrants from Mariupol, Ukraine.
+They escaped the Soviet Union in the 1980s.
+David grew up in a small house with 12 siblings.
+David is 6 feet 5 inches tall.
+`,
+
+  resumeData: {
+    about: {{ site.data.data.about | jsonify }},
+    contact: {{ site.data.data.contact | jsonify }},
+    careerProfile: {{ site.data.data["career-profile"] | jsonify }},
+    interests: {{ site.data.data.interests | jsonify }},
+    language: {{ site.data.data.language | jsonify }},
+    education: {{ site.data.data.education | jsonify }},
+    experiences: {{ site.data.data.experiences | jsonify }},
+    projects: {{ site.data.data.projects | jsonify }},
+    certifications: {{ site.data.data.certifications | jsonify }},
+    recommendations: {{ site.data.data.recommendations | jsonify }},
+    skills: {{ site.data.data.skills | jsonify }}
+  }
+};
+</script>
+<button id="chat-toggle" class="chatbot-toggle">
+  AI
+</button>
+
+<div id="chat-panel" class="chatbot-panel">
+
+  <div class="chatbot-header">
+    <h3>Ask About David</h3>
+
+    <button id="close-chat" class="close-btn">
+      ×
+    </button>
+  </div>
+
+  <div id="chat-messages" class="chat-messages">
+
+    <div class="chat-message ai">
+      <div class="message-content">
+        Hi! Ask me anything about David's experience,
+        projects, education, or skills.
+      </div>
+    </div>
+
+  </div>
+
+  <div class="chat-input-container">
+
+    <div class="input-row">
+
+      <input
+        type="text"
+        id="chat-input"
+        placeholder="Ask a question..."
+      />
+
+      <button id="chat-send" class="send-btn">
+        Send
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ai-chat.css">
+
+<script src="{{ site.baseurl }}/assets/js/ai-chat.js"></script>
